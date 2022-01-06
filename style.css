@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+table td,tr{
+border: 1px solid black;
+padding: 5px;
+font-size: 20px;
+}
+
+.main_form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.main_form .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.main_form .main_form form{
+    display: flex;
+    width: 100%;
+}
+
+.main_form .main_form form .fild{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+ .fild label{
+     margin-bottom: 4px;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+.fild input{
+    font-size: 17px;
+}
+
+.fild #male,#female{
+    font-size: 20px;
+
+}
+.submit{
+    width: 100%;
+    text-align: center;
+}
+
+#submit{
+    font-size: 16px;
+    padding: 10px;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+}
+table button{
+    font-size: 15px;
+    padding: 10px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+.search #search{
+    padding: 10px;
+}
+span{
+    color: red;
+}

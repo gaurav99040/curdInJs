@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>javascript curd</title>
+</head>
+
+<body>
+    <div class="main_form">
+    <div class="form">
+        <form action="">
+            <div class="fild">
+                <label for="">Name:-</label><br>
+                <input type="text" id="name1"><br>
+            <span id='error1'></span>
+            </div>
+            <br>
+            <div class="fild">
+                <label for="">email:-</label><br>
+                <input type="text" id="email"><br>
+            <span id='error2'></span>
+            </div>
+            <br>
+            <div class="fild">
+                <label for="">mobile:-</label><br>
+                <input type="text" id="mobile"><br>
+                <span id='error3'></span>
+            </div>
+            <br>
+            <div class="fild">
+                <label for="">gender:-</label><br>
+                <input type="radio" name="gender" id="male" value="male"><label>male</label>
+                <input type="radio" name="gender" id="female" value="female"><label>female</label><br>
+                <span id='error4'></span>
+            </div>
+            <br>
+            <div class="fild">
+                <label for="">city:-</label><br>
+                <select name="city" id="city">
+                    <option value="surat">surat</option>
+                    <option value="bhavnager">bhavnager</option>
+                    <option value="rajkot">rajkot</option>
+                    <option value="botad">botad</option>
+                </select><br>
+                <span id='error5'></span>
+            </div>
+            <br>
+            <div class="fild">
+                <label for="">hobby:-</label><br>
+                <input type="checkbox" class="checkbox" name="cricket" value="cricket"><label>cricket</label><br>
+                <input type="checkbox" class="checkbox" name="singing" value="singing"><label>singing</label><br>
+                <input type="checkbox" class="checkbox" name="playing" value="playing"><label>playing</label><br>
+                <input type="checkbox" class="checkbox" name="swimming" value="swimming"><label>swimming</label><br>
+            </div>
+            <br>
+            <div class="fild">
+                <label for="">image:-</label><br>
+                <input type="file" id='img'>
+            </div>
+            <br>
+            <div class="submit">
+            <button id="submit" class="submit">submit</button>
+        </div>
+        </form>
+    </div>
+    </div>
+    <div class="search">
+    <input type="text" placeholder="search" id='search'>
+    <button class="search_btn" id="search_btn">search</button>
+    </div>
+    <table class="table">
+        <tr>
+            <th>Name</th>
+            <th>email</th>
+            <th>Mobile No</th>
+        </tr>
+        <tbody></tbody>
+    </table>
+    <script src="tast.js"></script>
+</body>
+
+</html>
